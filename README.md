@@ -35,3 +35,8 @@ NOTE: There are two tests failing and those failures are due to application bugs
 4. Use of IWebDriver in page objects and page components tightly couple the framework to selenium/webdriver. This can be eliminated by wrapping the IWebDriver to a framework-specific interface so that the framework will be independent of the underlying webdriver technology.
 5. Tests can be configured to run in parallel
 6. Tests can be configured to run on Docker
+
+## View TestExecutionReport.html
+
+1. Specflow test execution report is attached as "TestExecutionReport.html" Please download the file to view the report and Github is not allowing to view it on Github portal
+
