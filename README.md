@@ -6,7 +6,7 @@
 2. Specflow nuget package was used to implement the scenarios in BDD style https://specflow.org/
 3. Download and install Visual Studio 2022 (VS 2022) community edition. https://visualstudio.microsoft.com/vs/community/
 4. Install visuals studio extension "Specflow for Visual Studio 2022". Open VS 2022 > Extenstion Menu > Manage Extensions > Search for "Specflow for Visual Studio 2022" > Download the extension. (You need to restart VS 2022  for the extension installation to be completed)
-5. The chromedriver.exe included in the project is only compatible with Chrome Version 100.0.4896.75. If you have a newer version of the chrome browser, please upgrade the chromedriver.exe accordingly. https://chromedriver.chromium.org/downloads
+5. The chromedriver.exe included in the project is only compatible with Chrome Version 100.0.4896.75. If you have a newer version of the chrome browser, please upgrade the chromedriver.exe accordingly. https://chromedriver.chromium.org/downloads. Once you download the matching chromedriver version to your browser version, place it inside the /Wpb.CarsRating.Core/WebDriver/ folder. You must compile the solution so that the new chromedriver.exe get copied into the bin folder.
 7. Make sure chromedriver.exe is not being used by any other process during test execution. Use "taskkill -f -im chromedriver.exe" to kill if it's being used.
 
 ## Executing tests from Visual Studio 2022
