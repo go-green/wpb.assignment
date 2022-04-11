@@ -38,5 +38,5 @@ NOTE: There are two tests failing and those failures are due to application bugs
 
 ## View TestExecutionReport.html
 
-1. Specflow test execution report is attached as "TestExecutionReport.html" Please download the file to view the report and Github is not allowing to view it on Github portal
+1. The self contained Specflow test execution report is attached as "TestExecutionReport.html". Please download the file to view the report. Github is not allowing to view it online.
 
